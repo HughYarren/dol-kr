@@ -87,7 +87,7 @@
 	<<else>>
 		곧 당신의 자지는 완전히 발기한다.
 		<<if $penissize gte 4>>
-			You feel a blush creep over your cheeks when you reach your full size. Your penis casts a shadow on their faces big enough to make their jaws drop. 
+			당신의 자지가 완전히 커지자 당신의 뺨에 홍조가 번지는 것을 느낀다. 당신의 자지는 그들의 턱이 벌어질 정도로 거대하여 그들의 얼굴에 그림자를 드리운다. 
 		<</if>>
 	<</if>>
 <<else>>
@@ -96,7 +96,7 @@
 	"커지질 않아!" <<person4>><<personPost "이">> 외친다. 여학생들의 키득거림이 멈추고, 몇몇 남학생들은 더 잘 보기 위해 몸을 앞으로 숙인다.
 	<br><br>
 
-	<<person5>>"Nothing happened when I breathed on it," the <<person>> says. <<He>> inhales, then blows onto you. The <<person4>><<person>> joins in, but they can't get you aroused enough.
+	<<person5>>"숨결을 내뱉어도 아무 일도 일어나지 않아," <<person_i>> 말한다. <<He_nun>> 숨을 들이쉬었다가, 당신을 향해 내뱉는다. <<person4>><<personPost "도">> 거기에 동참하지만, 그들은 당신을 충분히 흥분시킬 수 없었다.
 <</if>>
 <br><br>
 
