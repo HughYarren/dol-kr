@@ -368,27 +368,27 @@
 <<set $rng to random(0, 100)>>
 <<promiscuity1>>
 <<if $rng gte 75>>
-   Smiling, you look over your shoulder, "Thanks!" you purr.
+   당신은 미소지으면서 어깨 너머를 본다, "고마워!" 당신은 기분 좋은 목소리로 말한다.
 <<elseif $rng gte 50>>
-   You stick out your <<bottom>>, give it a little wiggle, and look over your shoulder.
+   당신은 당신의 <<bottom_ul>> 내밀어, 약간 흔들고는, 어깨 너머를 본다.
 <<elseif $rng gte 37>>
-   You turn to face the <<person>> and giggle, "That was nice!"
+   당신은 <<person_ul>> 향해 몸을 돌리고 킥킥거린다, "좋았었어!"
 <<elseif $rng gte 25>>
-   You turn to face the <<person>> and giggle, "You like it?"
+   당신은 <<person_ul>> 향해 몸을 돌리고 킥킥거린다, "마음에 들었어?"
 <<else>>
-   You wink at the <<person>>.
+   당신은 <<person_ul>> 향해 윙크한다.
 <</if>>
 <br><br>
 
 <<set $rng to random(0, 100)>>
 <<if $rng gte 75>>
-   <<He>> locks eyes with you briefly, and grins. You blush and hurry on. <<arousal 500>><<garousal>>
+   <<He_nun>> 당신에게 잠깐 눈을 고정시키고는, 씨익 웃는다. 당신은 얼굴을 붉히면서 서두른다. <<arousal 500>><<garousal>>
 <<elseif $rng gte 50>>
-   <<He>> avoids eye contact and hurries on.
+   <<He_nun>> 눈을 마주치는 것을 피하고 서두른다.
 <<elseif $rng gte 25>>
-   "You're welcome!" <<He>> replies, and smacks your <<bottom>> as <<he>> walks away. <<pain 5>><<gpain>><<arousal 500>><<garousal>> 
+   "천만에!" <<He_ga>> 대답하고, 걸어가면서 당신의 <<bottom_ul>> 손바닥으로 때린다. <<pain 5>><<gpain>><<arousal 500>><<garousal>> 
 <<else>>
-   <<He>> shoots you an angry look and mumbles, "Stupid slut!" as <<he>> turns away. <<gtrauma>><<trauma 6>>
+   <<He_nun>> 당신을 화난 표정으로 쏘아보고는 중얼거리며 멀어진다, "멍청한 걸레새끼!". <<gtrauma>><<trauma 6>>
 <</if>>
 
 <br><br>
@@ -606,7 +606,7 @@
 
 :: Hallways Exposed Classroom Molestation Finish
 <<if $enemyhealth lte 0>>
-	They back off for a moment, shocked by your aggression. <<tearful>> you flee to safety.
+	그들은 당신의 공격에 놀라, 잠시 뒤로 물러난다. <<tearful>> 당신은 안전한 곳으로 도망친다.
 	<br><br>
 
 	<<clotheson>>
@@ -756,7 +756,7 @@
 <<effects>>
 
 <<if $slimeDefyCooldown>>
-	The slime tries to assert control, however, <span class="teal">it's still worn out from overpowering you earlier.</span> You feel it try, <span class="green">but fail,</span> to force you to strip.
+	슬라임은 통제권을 가지기 위해 노력하지만, <span class="teal">앞서 당신을 제압한 탓에 여전히 지쳐있다.</span> 당신의 옷을 벗기기 위해 노력했지만, <span class="green">실패한 것을 알아차린다</span>.
 	<br><br>
 	<<endevent>>
 	<<link [[다음|Hallways]]>><<set $eventskip to 1>><</link>>
