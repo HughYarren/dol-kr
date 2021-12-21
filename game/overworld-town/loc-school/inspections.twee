@@ -268,7 +268,7 @@
 				<</if>>
 			<<else>>
 				Although <<he>> looks confused at a girl standing in line, <<he>> doesn't seem to particularly care. 
-				/* pc is doubted, but leighton doesnt care and they are allowed to join the line. if theyre lying, leighton will be annoyed but not upset.*/
+				/* pc is doubted, but leighton doesnt care and they are allowed to join the line. if theyre lying, leighton will be annoyed but not upset..*/
 			<</if>>
 			<br><br>
 			
